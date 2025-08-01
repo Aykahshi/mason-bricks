@@ -42,8 +42,7 @@ mason add fcubit --path path-to-your-bricks/fcubit
 
 2. cd to your feature folder
 
-```
-bash
+```bash
 cd path-to-your-feature
 ```
 
@@ -64,8 +63,7 @@ mason add feature --path path-to-your-bricks/feature
 
 2. cd to your feature folder(root feature folder under your lib folder)
 
-```
-bash
+```bash
 cd lib/feature or path-to-your-feature
 ```
 
