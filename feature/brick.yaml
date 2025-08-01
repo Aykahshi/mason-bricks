@@ -1,0 +1,21 @@
+name: feature
+description: Clean Architecture feature Template
+
+version: 0.1.0+1
+
+environment:
+  mason: ^0.1.1
+
+vars:
+  feature_name:
+    type: string
+    description: Name of feature in Clean Architecture
+    default: Home
+    prompt: Please enter the name of the new feature.
+
+  model_name:
+    type: string
+    description: Name of model/entity in data/domain layer
+    default: User
+    prompt:
+      Please enter the name of the first model/entity in data/domain layer.

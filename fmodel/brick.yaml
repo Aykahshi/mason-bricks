@@ -1,0 +1,14 @@
+name: fmodel
+description: freezed model/entity brick for Clean Architecture
+
+version: 0.1.0+1
+
+environment:
+  mason: ^0.1.1
+
+vars:
+  model_name:
+    type: string
+    description: Name of model/entity in data/domain layer
+    default: User
+    prompt: Please enter the name of the model/entity in data/domain layer.
