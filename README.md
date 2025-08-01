@@ -19,7 +19,7 @@ git clone https://github.com/Aykahshi/mason-bricks.git
 3. Install mason-bricks
 
 ```bash
-mason add ca_fbloc --path path-to-your-bricks/clean_architecture
+mason add ca_fbloc --path path-to-your-bricks/ca_fbloc
 ```
 
 4. Run mason
@@ -36,6 +36,8 @@ mason make ca_fbloc
 
 ```bash
 mason add fmodel --path path-to-your-bricks/fmodel
+mason add fbloc --path path-to-your-bricks/fbloc
+mason add fcubit --path path-to-your-bricks/fcubit
 ```
 
 2. cd to your feature folder
@@ -57,7 +59,7 @@ mason make fcubit
 1. Install mason-bricks
 
 ```bash
-mason add fmodel --path path-to-your-bricks/feature
+mason add feature --path path-to-your-bricks/feature
 ```
 
 2. cd to your feature folder(root feature folder under your lib folder)
