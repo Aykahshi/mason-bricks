@@ -6,7 +6,7 @@ part '{{cubit_name.snakeCase()}}_state.dart';
 part '{{cubit_name.snakeCase()}}_cubit.freezed.dart';
 
 @injectable
-final class {{cubit_name.pascalCase()}}Cubit extends Cubit<{{bloc_name.pascalCase()}}Event, {{cubit_name.pascalCase()}}State> {
+final class {{cubit_name.pascalCase()}}Cubit extends Cubit<{{cubit_name.pascalCase()}}Event, {{cubit_name.pascalCase()}}State> {
   {{cubit_name.pascalCase()}}Cubit() : super(const {{cubit_name.pascalCase()}}State());
 
    // TODO: Implement cubit methods

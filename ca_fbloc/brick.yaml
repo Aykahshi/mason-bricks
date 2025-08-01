@@ -1,7 +1,7 @@
 name: ca_fbloc
-description: A clean architecture template with bloc and freezed.
+description: A clean architecture template with bloc/cubit and freezed.
 
-version: 0.1.0+1
+version: 0.1.1+1
 
 environment:
   mason: ^0.1.1
@@ -30,9 +30,16 @@ vars:
     prompt:
       Please enter the name of the first model/entity in data/domain layer.
 
+  use_cubit:
+    type: boolean
+    description: Whether to use cubit instead of bloc in presentation layer
+    default: false
+    prompt:
+      Do you want to use cubit instead of bloc in presentation layer? 
+
   bloc_name:
     type: string
-    description: Name of bloc in presentation layer
+    description: Name of bloc(cubit) in presentation layer
     default: Counter
     prompt:
-      Please enter the name of the first bloc in presentation layer.
+      Please enter the name of the first bloc(cubit) in presentation layer.

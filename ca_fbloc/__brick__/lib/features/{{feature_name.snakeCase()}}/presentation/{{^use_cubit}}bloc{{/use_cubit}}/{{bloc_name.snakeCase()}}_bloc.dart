@@ -4,7 +4,7 @@ import 'package:injectable/injectable.dart';
 
 part '{{bloc_name.snakeCase()}}_event.dart';
 part '{{bloc_name.snakeCase()}}_state.dart';
-part '../../blocs/{{bloc_name.snakeCase()}}_bloc.freezed.dart';
+part '../../../blocs/{{bloc_name.snakeCase()}}_bloc.freezed.dart';
 
 @injectable
 final class {{bloc_name.pascalCase()}}Bloc extends Bloc<{{bloc_name.pascalCase()}}Event, {{bloc_name.pascalCase()}}State> {
